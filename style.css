@@ -29,10 +29,9 @@ h2 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(73, 166, 233, 0.5);
+    background: rgba(156, 73, 233, 0.5);
     display: grid;
-    place-items: center;
-    transition:all 0.3s linear;
+    place-items: center; 
     visibility: hidden;
     z-index: -10;
   }
@@ -40,7 +39,6 @@ h2 {
     background: white;
     border-radius:0.5rem;
     width: 90vw;
-    height: 30vh;
     max-width: 620px;
     text-align: center;
     display: grid;
@@ -56,7 +54,7 @@ h2 {
     border-color: transparent;
     color: hsl(360, 67%, 44%);
     cursor: pointer;
-    transition: all 0.3s linear;
+
   }
   .close-btn:hover {
     color: hsl(360, 71%, 66%);
